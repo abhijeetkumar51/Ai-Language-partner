@@ -11,7 +11,7 @@ import requests
 import webbrowser
 
 # Gemini API configuration
-GEMINI_API_KEY = "AIzaSyCU8_L43XMChklCbKsRYzr8DzRD2LIhjmw"
+GEMINI_API_KEY = "your Api_Key"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
 
 class AILanguagePartner:
@@ -322,3 +322,4 @@ if __name__ == "__main__":
     app = AILanguagePartner(root)
 
     root.mainloop()
+
